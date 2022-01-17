@@ -41,4 +41,9 @@ public class RandomTester {
 	        }
 	      }
 
+	    public void trowDie()
+	    {
+	       System.out.println(1 + random.nextInt(6-1));
+	       System.out.println();
+	    }
 	}
