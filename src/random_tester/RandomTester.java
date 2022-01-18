@@ -46,4 +46,30 @@ public class RandomTester {
 	       System.out.println(1 + random.nextInt(6-1));
 	       System.out.println();
 	    }
+	    
+	    /**
+	     * Generate a random response.
+	     * 
+	     * @return A random response: "no", "yes" or "maybe".
+	     */  
+	    
+	    public void getRespons()
+	    {
+	       System.out.println("Shall I respond to your question?");
+	       
+	       int respons = random.nextInt(3);
+	       
+	       if(respons == 0) {
+	           System.out.println("no");
+	        }
+	       else if(respons == 1) {
+	           System.out.println("yes");
+	       }
+	       else{
+	           System.out.println("maybe"); 
+	        }
+	       
+	       System.out.println();
+	    }
+	    
 	}
