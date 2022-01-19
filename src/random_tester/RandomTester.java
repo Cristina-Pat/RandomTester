@@ -72,4 +72,16 @@ public class RandomTester {
 	       System.out.println();
 	    }
 	    
+	     /**
+	     * Generate a random number in range mimimum to maximum inclusiv. 
+	     * 
+	     * @param min The lower limit of random number to generate.
+	     * @param max The upper limit of random number to generate (minus min).
+	     * 
+	     * @return A random int between min and max inclusiv.
+	     */
+	    public void randomMinMax(int min, int max)
+	    {
+	        System.out.println(random.nextInt(max-min) + min);
+	    }  
 	}
